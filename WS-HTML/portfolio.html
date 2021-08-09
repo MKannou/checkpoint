@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <a href="https://insidetn.wixsite.com/inside"><li>site</li> </a>
+        <a href="#about"><li>About</li></a>
+        <a href="#work"><li>work</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </header>
+    <br /><br />
+    <main align="center">
+      <section id="about">
+        <h3>About</h3>
+        <br />
+        <div>
+          <img src="./assets/photo.jpg" alt="moi" width="250" height="300" />
+          <h4>Kannou Mohamed</h4>
+          <div>
+            <p>
+              7 years of architectural studies at the National School of
+              Architecture & Urban Planning of Carthage "ENAU" and several
+              professional experiences.
+            </p>
+          </div>
+        </div>
+        <br /><br />
+        <section id="work"></section>
+        <div>
+          <h3>Work</h3>
+          <div>
+            <p>some projects that i made</p>
+            <img
+              src="./assets/projets.jpg"
+              alt="moi"
+              width="500"
+              height="550"
+            />
+          </div>
+          <div>
+            <p>i'm also a DJ</p>
+            <iframe
+              width="700"
+              height="500"
+              src="https://www.youtube.com/embed/mSX_O3HjSTY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+    </main>
+    <footer id="contact">
+      <h3>Contact</h3>
+      <br />
+      <form>
+        <label for="name">Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="place your name here"
+        /><br />
+        <label for="lname">email:</label><br />
+        <input
+          type="email"
+          id="lname"
+          name="lname"
+          placeholder="place your email here"
+        /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </footer>
+  </body>
+</html>

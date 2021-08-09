@@ -1,0 +1,28 @@
+/*initiqlisation */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+li {
+  display: inline-block;
+}
+li {
+  background-color: grey;
+  overflow: hidden;
+}
+li {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 8px 50px;
+  text-decoration: none;
+  font-size: 15px;
+}
+li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+}
